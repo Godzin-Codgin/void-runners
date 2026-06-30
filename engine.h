@@ -10,4 +10,7 @@ inline int calcularDano(int ataque, int escudo) {
     int danoFinal = ataque - escudo;
     return (danoFinal < 0) ? 0 : danoFinal;
 }
+inline int aplicarCritico(int danoBase, bool sorte) {
+    return sorte ? (danoBase * 2) : danoBase;
+}
 #endif
