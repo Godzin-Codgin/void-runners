@@ -25,6 +25,14 @@ ini1HP -= danoNoDrone;
 cout << heroi << " disparou contra " << ini1 << " causando " << danoNoDrone << " de dano!" << endl;
 mostrarStatus("INIMIGO", ini1, ini1HP, ini1ATQ);
 
+
+cout << "\n>>> COMBATE 2: O Pirata do Espaco aparece!" << endl;
+int danoBasePirata = calcularDano(heroiATQ, 10);
+int danoFinalPirata = aplicarCritico(danoBasePirata, true); 
+ini2HP -= danoFinalPirata;
+cout << "CRITICO! " << heroi << " desferiu um golpe fatal em " << ini2 << " de " << danoFinalPirata << " HP!" << endl;
+mostrarStatus("INIMIGO", ini2, ini2HP, ini2ATQ);
+
     system("pause");
     return 0;
 }
