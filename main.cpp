@@ -18,6 +18,13 @@ int main() {
     mostrarStatus("INIMIGO", ini1, ini1HP, ini1ATQ);
     mostrarStatus("INIMIGO", ini2, ini2HP, ini2ATQ);
 
+
+cout << "\n>>> COMBATE 1: Emboscada do Drone!" << endl;
+int danoNoDrone = calcularDano(heroiATQ, 5); 
+ini1HP -= danoNoDrone;
+cout << heroi << " disparou contra " << ini1 << " causando " << danoNoDrone << " de dano!" << endl;
+mostrarStatus("INIMIGO", ini1, ini1HP, ini1ATQ);
+
     system("pause");
     return 0;
 }
