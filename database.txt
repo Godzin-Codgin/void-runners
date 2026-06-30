@@ -1,0 +1,3 @@
+[Heroi] godzin prozin: Vida 150, Ataque 35
+[Inimigo 1] infectado: Vida 60, Ataque 15
+[Inimigo 2] membro da insolencia: Vida 90, Ataque 25
