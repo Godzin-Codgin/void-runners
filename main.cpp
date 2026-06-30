@@ -33,6 +33,9 @@ ini2HP -= danoFinalPirata;
 cout << "CRITICO! " << heroi << " desferiu um golpe fatal em " << ini2 << " de " << danoFinalPirata << " HP!" << endl;
 mostrarStatus("INIMIGO", ini2, ini2HP, ini2ATQ);
 
+cout << "\n[SISTEMA]: Setor limpo. Void Runners vitoriosos!" << endl;
+cout << "============================================" << endl;
+
     system("pause");
     return 0;
 }
