@@ -6,4 +6,8 @@
 inline void mostrarStatus(std::string classe, std::string nome, int v, int atq) {
     std::cout << "[" << classe << "] " << nome << " -> HP: " << v << " | ATQ: " << atq << std::endl;
 }
+inline int calcularDano(int ataque, int escudo) {
+    int danoFinal = ataque - escudo;
+    return (danoFinal < 0) ? 0 : danoFinal;
+}
 #endif
