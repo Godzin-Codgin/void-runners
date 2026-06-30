@@ -8,3 +8,5 @@ Projeto desenvolvido em C++
 
 ## ?? Desenvolvedor
 - Desenvolvido por: **Godzin-Codgin**
+
+obs:alguns dos 10 commits que era para ter no trabalho foram usados para atualizações de "files" já criadas
